@@ -1,0 +1,116 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    font-size: 26px;
+    width: 73%;
+    padding: 1%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.heroImg {
+    padding: 25px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    align-content: center;
+    padding-right: 25%;
+    padding-left: 20%;
+} 
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+
+.userResearch {
+    width: 33%;
+}
+
+.userEmpathy {
+    width: 33%;
+}
+
+.qualitativeInterviews {
+    width: 33%;
+}
+
+.workGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "strongarmPic strongArm"
+    "govagencyPic govAgency"
+    "nonprofitPic nonProfit"
+}
+
+.gridContainer {
+    display: grid;
+
+}
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #373738;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+footer ul {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+.flexContainer {
+    flex-direction: column;
+    width: 100%;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 
+    "strongarmPic"
+    "strongArm"
+    "govagencyPic"
+    "govAgency"
+    "nonprofitPic"
+    "nonProfit"
+    ;
+}
+
+    }
