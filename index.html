@@ -7,7 +7,7 @@
     <body>
         <header class="navigation">
             <div class="inline block" class="logo">
-                <img src="Images/Frame 1-3.png">
+                <img src="images/Frame1-3.png">
             </div>
             <nav class="inline-block">
                 <ul>
@@ -25,22 +25,13 @@
         </header>
         <section class="heroImg">
             <div class="content">
-                <img src="Images/Screen Shot 2022-03-23 at 1.33 1.png">
+                <img src="images/ScreenShot2022-03-23at1.331.png">
                 <p> Hi, I’m Sarah. I’m a creative UX designer with a background in experimental psychology living in Denver, CO. I’m passionate about understanding users' behaviors in order to create effective yet memorable user experiences.</p>
                 <button> Download Resume</button>
-                       <!-- Trigger/Open The Modal -->
+                 <a href="#workGrid"><button>View Work</button></a>      <!-- Trigger/Open The Modal -->
 <button id="myBtn">View Resume</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
-</div>
         <footer>
             <ul>
                 <li class="inline-block">
@@ -54,7 +45,7 @@
                 </li>
             </ul>
         </footer>
-    </body>
+
         </section>
 
         <section class="mySkills"></section>
@@ -83,14 +74,14 @@
 
         <section>
             <h1>My Work</h1>
-            <div class="workGrid">
-                <div class="strongArm"><img id="strongarmPic" src="images/pexels-elina-sazonova-2705755 1-2.png"></div>
+            <div id="workGrid" class="workGrid">
+                <div id="strongArm" class="strongArm"><img id="strongarmPic" src="images/pexels-elina-sazonova-2705755 1-2.png"></div>
                 <div><h3>StrongArm Safe Driving Mobile App</h2><p>The creation of a mobile application that demonstrates the understanding of the design-thinking process. Tasked with creating an app that would address a real-world need </p><button>View</button></div>
 
-                <div class="govAgency"><img id="govagencyPic" src="images/image 1.png"></div>
+                <div id="govAgency" class="govAgency"><img id="govagencyPic" src="images/image 1.png"></div>
                 <div><h3>Government Agency Redesign and UI Redesign Case Study</h2><p>A redesign of the Department of Education's desktop and mobile websites using responsive web design in order to include updated UI components and navigation elements to make accessing content easier for users.</p><button>View</button></div>
 
-                <div class="nonProfit"><img id="maxfundPic" src="images/image 2.png"></div>
+                <div id="nonProfit" class="nonProfit"><img id="maxfundPic" src="images/image 2.png"></div>
                 <div><h3>Nonprofit Organization (MaxFund) Redesign Case Study</h2><p>An analysis and a redesign of MaxFund's current website to get users more engaged and make the process of finding a pet easier for everyone.</p><button>View</button></div>
 
             </div>
@@ -99,4 +90,5 @@
     
     
     <script src="js/index.js"></script>
+</body>
 </html>
