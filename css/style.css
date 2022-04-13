@@ -50,7 +50,8 @@ html {
 .flexContainer {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 95%;
+    padding: 50px;
 }
 
 .userResearch {
